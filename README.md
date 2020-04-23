@@ -6,4 +6,6 @@ This repository contains a number of example Dockerfiles that demonstrate variou
 
 The example Dockerfiles are grouped in subdirectories according to use case:
 
+- [`dedicated-servers`](./dedicated-servers): examples for packaging dedicated servers for projects.
+
 - [`pixel-streaming`](./pixel-streaming): examples for packaging projects that use [Pixel Streaming for Linux](https://adamrehn.com/articles/pixel-streaming-in-linux-containers/), grouped by Unreal Engine version.
