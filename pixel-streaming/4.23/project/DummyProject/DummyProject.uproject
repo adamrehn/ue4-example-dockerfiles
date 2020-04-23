@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{41BD0A80-B72E-4EAD-91BA-29B3ACF2C5B4}",
+	"Category": "",
+	"Description": "A dummy project for use with example Dockerfiles",
+	"Plugins": [
+		{
+			"Name": "PixelStreaming",
+			"Enabled": true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "DummyProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
