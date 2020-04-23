@@ -10,4 +10,6 @@ The example Dockerfiles are grouped in subdirectories according to use case:
 
 - [`pixel-streaming`](./pixel-streaming): examples for packaging Unreal projects that use [Pixel Streaming for Linux](https://adamrehn.com/articles/pixel-streaming-in-linux-containers/), grouped by Unreal Engine version.
 
+- [`plugins`](./plugins): examples for building and packaging Unreal plugins. *(Note that these examples are provided as Dockerfiles simply because it makes them easy for users to test. In actual use your CI/CD system would spin up a container and run the commands inside it, since the end result is not actually a container image but simply packaged files.)*
+
 - [`projects`](./projects): examples for building, testing and packaging Unreal projects. *(Note that these examples are provided as Dockerfiles simply because it makes them easy for users to test. In actual use your CI/CD system would spin up a container and run the commands inside it, since the end result is not actually a container image but simply packaged files.)*
