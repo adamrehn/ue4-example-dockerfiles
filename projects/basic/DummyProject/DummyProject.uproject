@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{13A72F9E-0965-48E2-8A20-2D5C5C300FD3}",
+	"Category": "",
+	"Description": "A dummy project for use with example Dockerfiles (4.24 version)",
+	"Modules": [
+		{
+			"Name": "DummyProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
